@@ -40,6 +40,7 @@ public class SearchInRotatedArray {
             if(mid < end && arr[mid] > arr[mid + 1]) {
                 return mid;
             }
+
             if(mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
             }

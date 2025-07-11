@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FirstAndLastOccurance {
     public static void main(String[] args) {
-        int[] nums = new int[]{1,2,2,2,2,2,3,3,4,5,6,7};
+        int[] nums = new int[]{1, 2, 2, 2, 2, 2, 3, 3, 4, 5, 6, 7};
         System.out.println(Arrays.toString(ans(nums, 2)));
     }
 
@@ -37,7 +37,6 @@ public class FirstAndLastOccurance {
                 }
             }
         }
-
         return ans;
     }
 }

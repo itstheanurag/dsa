@@ -2,12 +2,12 @@ package Binary_Search;
 
 public class CeilingOfANumber {
     /*
-    Ceiling of a numebr is a number such that nums[mid] >= x
+    Ceiling of a number is a number such that nums[mid] >= x
 
     which is just lowerBound
      */
     public static void main(String[] args) {
-        int[] nums = new int[]{1,2,3,4,5,6,8,10,10,11};
+        int[] nums = new int[]{1,2,3,4,5,6,8,10,10,11,13, 15};
         int target = 12;
         System.out.println(lowerBound(nums, target));
     }

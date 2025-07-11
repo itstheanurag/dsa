@@ -5,7 +5,8 @@ public class FindInMountainArray {
         //https://leetcode.com/problems/find-in-mountain-array/description/
 
         /*
-        Given a mountain array mountainArr, return the minimum index such that mountainArr.get(index) == target. If such an index does not exist, return -1.
+        Given a mountain array mountainArr, return the minimum index such that mountainArr.get(index) == target.
+        If such an index does not exist, return -1.
         You cannot access the mountain array directly. You may only access the array using a MountainArray interface:
 
         MountainArray.get(k) returns the element of the array at index k (0-indexed).
